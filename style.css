@@ -1,0 +1,13 @@
+body, html {
+  height: 100%
+}
+
+
+.nightsky.v01.jpg {
+  background-image: url("nightsky.v01.jpg");
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
