@@ -57,14 +57,14 @@ body, html {
   color: white;
 }
 
-div.info {
+ div.info {
   width: auto;
 
   word-wrap: break-word;
   overflow: auto;
   text-align: left;
   border-width: 1px;
-  border-style: dotted;
+  border-style: solid;
   border-color: black;
   float: left;
   margin: 1px;
@@ -73,23 +73,78 @@ div.info {
 
 div#First {
   background-color: #711F70;
+  /* width: auto;
+
+  word-wrap: break-word;
+  overflow: auto;
+  text-align: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  float: none;
+  margin: 1px;
+  padding: 1px;  */
   font-family: 'Bitter', serif;}
 
 div#Second {
   background-color: #004E8A;
+  width: 700px;
+
+  word-wrap: break-word;
+  overflow: auto;
+  text-align: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  margin: 1px;
+  padding: 1px;
   font-family: 'Bitter', serif;
 }
 
 div#Third {
   background-color: #05C7F2;
+  width: 712px;
+
+  word-wrap: break-word;
+  overflow: auto;
+  text-align: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  margin: 1px;
+  padding: 1px;
   font-family: 'Bitter', serif;
 }
   div#first {
     background-color: pink;
+    width: 550px;
+   height: fit-content;
+    word-wrap: normal;
+    overflow: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin: 10px;
+    padding: 5px;
     font-family: 'Bitter', serif;
   }
   div#second {
     background-color: #6566C0;
+    width: 300px;
+    /* height: fit-content; */
+    word-wrap: normal;
+    overflow: auto;
+    text-align: left;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin: 10px;
+    padding: 5px;
     font-family: 'Bitter', serif;
   }
     div#third {
@@ -99,7 +154,7 @@ div#Third {
       overflow: auto;
       text-align: left;
       border-width: 1px;
-      border-style: dotted;
+      border-style: solid;
       border-color: black;
       float: none;
       margin: 10px;
@@ -114,7 +169,7 @@ div#Third {
       overflow: auto;
       text-align: left;
       border-width: 1px;
-      border-style: dotted;
+      border-style: solid;
       border-color: black;
       float: none;
       margin: 10px;
