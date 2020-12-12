@@ -73,17 +73,16 @@ div.info {
 
 div#First {
   background-color: #711F70;
-  font-family: 'Inter', sans-serif;
-}
+  font-family: 'Bitter', serif;}
 
 div#Second {
   background-color: #004E8A;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Bitter', serif;
 }
 
 div#Third {
   background-color: #05C7F2;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Bitter', serif;
 }
   div#first {
     background-color: pink;
@@ -94,18 +93,18 @@ div#Third {
     font-family: 'Bitter', serif;
   }
     div#third {
-      width: auto;
+      width: 550px;
       /* height: fit-content; */
       word-wrap: normal;
       overflow: auto;
-      text-align: center;
+      text-align: left;
       border-width: 1px;
       border-style: dotted;
       border-color: black;
       float: none;
       margin: 10px;
       padding: 5px;
-      font-family: 'Kanit', sans-serif;
+      font-family: 'Bitter', serif;
       background-color: #6AD6FD;
     }
     div#fourth {
@@ -120,6 +119,6 @@ div#Third {
       float: none;
       margin: 10px;
       padding: 5px;
-      background-color: #FECA01;
-      font-family: 'IBM Plex Sans', sans-serif;
-    }
+      background-color: #FCFF57;
+      font-family: 'Bitter', serif;
+     }
