@@ -57,13 +57,13 @@ body, html {
   background-size: 100%;
   position: relative;
 }
-.campfire-image {
+/* .campfire-image {
   width: 1400px;
   height: 500px;
   background-image: url("campfire.jpg");
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%;  */
 }
 .My-welcome-text {
   text-align: center;
@@ -72,6 +72,15 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+.circle-image {
+  width: 650px;
+  height: 500px;
+  background-image: url("circle.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
 }
 
  div.info {
@@ -165,7 +174,7 @@ div#Third {
     font-family: 'Bitter', serif;
   }
     div#third {
-      width: 550px;
+      width: 1000px;
       /* height: fit-content; */
       word-wrap: normal;
       overflow: auto;
@@ -173,7 +182,7 @@ div#Third {
       border-width: 1px;
       border-style: solid;
       border-color: black;
-      float: none;
+      float: left;
       margin: 10px;
       padding: 5px;
       font-family: 'Bitter', serif;
